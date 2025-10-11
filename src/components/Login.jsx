@@ -12,8 +12,6 @@ const Login = () => {
   const navigate = useNavigate();
 
   const handleLogin = async () => {
-    console.log("email = ", email);
-    console.log("password = ", password);
     try {
       const response = await axios.post(
         BASE_URL + "/login",
