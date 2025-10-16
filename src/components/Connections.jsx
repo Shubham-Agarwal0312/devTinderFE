@@ -35,9 +35,9 @@ const Connections = () => {
           connection;
         return (
           <div className="flex p-4 m-4 bg-base-300 rounded-2xl">
-            <div className="flex w-20 h-20">
+            <div className="flex w-20 h-20 shrink-0">
               <img
-                className="w-20 h-20 rounded-full"
+                className="w-20 h-20 rounded-full bg-cover"
                 alt="photo"
                 src={photoURL}
               />
